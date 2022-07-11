@@ -1,0 +1,56 @@
+html,
+body,
+main {
+	padding: 0px;
+	margin: 0px;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+		sans-serif;
+	background-color: #1f2335;
+}
+
+a {
+	color: #668ac4;
+}
+
+button {
+	color: #1f2335;
+	background-color: #a9b1d6;
+	padding: 5px;
+	border: 1px solid #1f2335;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #7982a9;
+}
+
+button:active {
+	background-color: #668ac4;
+}
+
+form {
+	display: inline-block;
+	text-align: left;
+}
+
+input {
+	margin-bottom: 10px;
+	width: 300px;
+}
+
+table {
+	width: 100%;
+	text-align: left;
+	column-fill: balance;
+}
+
+th,
+td {
+	padding: 5px 30px 3px 10px;
+}
+
+hr {
+	margin: 40px 0px;
+	border: 1px solid #a9b1d6;
+}
